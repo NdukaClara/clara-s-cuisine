@@ -1,0 +1,105 @@
+/* page title styles */
+#page_title {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.page_title_text {
+    font-size: 2.2rem;
+    color: var(--black-1);
+    font-weight: 600;
+}
+@media only screen and (min-width: 768px){
+    #page_title{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .page_title_text {
+        font-size: 3.6rem;
+    }
+}
+/* our specials menu styles */
+#ourSpecials {
+    padding: 0;
+}
+.ourSpecials_title{
+    font-size: 1.8rem;
+    color: var(--black-1);
+    margin-bottom: 2rem;
+}
+.ourSpecials_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 400px;
+}
+.ourSpecials_item {
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    background-color: var(--lightGreen-1);
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+.ourSpecials_item_img,
+.ourSpecials_item_info {
+    flex: 1;
+}
+.ourSpecials_item_img {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.ourSpecials_item_img img {
+    object-fit: cover;
+}
+.ourSpecials_item_title {
+    font-size: 2.4rem;
+    color: var(--black-1);
+    margin-bottom: 1rem;
+    line-height: 1.2em;
+}
+.ourSpecials_item_price {
+    font-size: 1.8rem;
+    color: var(--green-1);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.ourSpecials_item_stars {
+    width: max-content;
+}
+@media only screen and (min-width: 768px) {
+    .ourSpecials_title {
+        font-size: 2.4rem;
+        /* margin-bottom: 3rem; */
+    }
+    .ourSpecials_wrapper {
+        flex-direction: row;
+        gap: 2rem;
+        max-width: none;
+    }
+    .ourSpecials_item {
+        padding: 3rem;
+    }
+    .ourSpecials_item_img {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    .ourSpecials_item_price {
+        font-size: 2.4rem;
+        margin-bottom: 1.5rem;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .ourSpecials_item_img {
+        flex: 4;
+    }
+    .ourSpecials_item_info {
+        flex: 3;
+    }
+}
+/* Top Dish Styles */
+#top_dish {
+    padding-bottom: 0;
+}
+#top_dish:last-of-type {
+    padding-bottom: 10rem;
+}
