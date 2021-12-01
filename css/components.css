@@ -1,18 +1,19 @@
 /* nav styles */
-.nav {
-    padding: 2rem 0;
-}
 .nav_icon,
 .nav_close,
 .nav_bgOverLay {
     display: none;
+    padding: 2rem 0;
 }
 .nav_wrapper {
     display: flex;
     justify-content: space-between;
 }
 .nav_logo {
-    width: 120px;
+    width: 70px;
+}
+.nav_logo img {
+    width: 70px;
 }
 .nav_logo img {
     color: var(--black-1);
@@ -21,6 +22,7 @@
 .nav_list li {
     display: inline-block;
     margin: 0 1rem;
+    padding: 2rem 0;
 }
 .nav_list .nav_link {
     font-size: 1.8rem;
@@ -133,7 +135,7 @@ footer {
     gap: 3rem;
 }
 .footer_logo {
-    width: 120px;
+    width: 80px;
     margin-bottom: 1rem;
 }
 .footer_desc {
